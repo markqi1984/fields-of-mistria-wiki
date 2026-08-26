@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fields of Mistria Mods · How to Install Replacements Safely</title>
+  <meta name="description" content="Beginner-friendly Fields of Mistria mods walkthrough: how to use Steam Workshop, back up your save, install one replacement at a time, and avoid overwriting existing content." />
+  <meta name="keywords" content="Fields of Mistria mods, Fields of Mistria mod installation, Fields of Mistria Steam Workshop mods" />
+  <link rel="canonical" href="https://fieldsofmistria.fan/mods/index.html" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="../index.html"><span class="logo-mark">FoM</span><span>Fields of Mistria Wiki</span></a>
+    <nav><ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../wiki.html">Wiki Map</a></li>
+      <li><a href="../guides/release-date.html">Guides</a></li>
+      <li><a href="../characters/index.html">Characters</a></li>
+      <li><a href="../romance/index.html">Romance</a></li>
+      <li><a href="../gifts/index.html">Gifts</a></li>
+      <li><a href="../fish/index.html">Fish</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<section class="hero" style="padding:2.25rem 1.5rem 2.5rem;">
+  <div class="hero-inner" style="grid-template-columns:1fr;">
+    <div>
+      <h1 style="font-size:2rem;">Mods &amp; Replacements</h1>
+      <p class="lead">Fields of Mistria supports mods through Steam Workshop and manual loading. This beginner walkthrough shows the safe path: back up saves, install one mod at a time, restart the launcher, and avoid silent overwrites.</p>
+      <div class="hero-meta">
+        <span class="meta-pill">🧩 Workshop Ready</span>
+        <span class="meta-pill">💾 Backup-First</span>
+        <span class="meta-pill">⚠ Patch-Sensitive</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page">
+  <aside class="sidebar">
+    <h3>Steps</h3>
+    <ul>
+      <li><a href="#backup" class="active">Backup <span class="count">1</span></a></li>
+      <li><a href="#install">Install <span class="count">2</span></a></li>
+      <li><a href="#verify">Verify <span class="count">3</span></a></li>
+    </ul>
+    <h3>Related</h3>
+    <ul>
+      <li><a href="../guides/updates.html">Patch Notes</a></li>
+      <li><a href="../guides/release-date.html">Beginner Guide</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <h1>How to install a mod safely</h1>
+    <p class="subtitle">Total time: 10 minutes including the backup. The right order is the one that lets you undo a broken mod without losing saves.</p>
+
+    <div id="backup">
+    <h2>Step 1: Back up your save</h2>
+    <p>Critical. Before subscribing to any mod:</p>
+    <ol>
+      <li>In Steam, right-click <em>Fields of Mistria</em> → Manage → Browse Local Files.</li>
+      <li>Open the <code>Saves</code> folder and copy it to a safe place on your desktop or cloud storage.</li>
+      <li>Label it with today's date: e.g. <code>Mistria-save-2026-08-26.zip</code>.</li>
+    </ol>
+    </div>
+
+    <div id="install">
+    <h2>Step 2: Install one mod at a time</h2>
+    <p>Open Steam Workshop, search <em>Fields of Mistria</em>, and subscribe to a single mod. Common beginner picks:</p>
+    <ul>
+      <li><strong>UI Tweaks</strong> — resizable text and HUD elements.</li>
+      <li><strong>Crop Reskin</strong> — replacement crops that fit alternate art styles.</li>
+      <li><strong>NPC Portrait Pack</strong> — different dialogue portraits, for slightly-more-animated feeling.</li>
+      <li><strong>Map Overlays</strong> — farmland markers for content creators.</li>
+    </ul>
+    <p>Always subscribe to a single mod first. Re-launch the game before subscribing to another.</p>
+    </div>
+
+    <div id="verify">
+    <h2>Step 3: Verify the mod loaded</h2>
+    <p>Launch the game, load your save, and check:</p>
+    <ul>
+      <li>The UI or visual change you expected</li>
+      <li>No errors on the main menu</li>
+      <li>Save still loads with no warnings</li>
+    </ul>
+    <p>If anything is wrong, unsubscribe in Steam Workshop, restore your save from the backup, and try a different mod. Most issues are caused by mods loading out of order — switching the load order (via the Mod Manager menu) usually fixes it.</p>
+    </div>
+
+    <h2>Patch-sensitive mods</h2>
+    <p>Patch 0.13.x changed how the breeding GUI works. Some 0.11.x mods may need an update before they work in 0.13.x. Watch the mod's Workshop page for version pins. If a mod hasn't been updated since 0.11.x, expect breakage.</p>
+
+    <h2>Manually loading a mod</h2>
+    <p>If you find a mod outside the Workshop (e.g. from a community Discord or a Patreon):</p>
+    <ol>
+      <li>Unzip it into <code>AppData/Local/Fields_of_Mistria/Mods/&lt;name&gt;/</code> (Windows) or the equivalent macOS path.</li>
+      <li>Re-launch the game so the mod folder is read.</li>
+      <li>Verify the same as Workshop mods.</li>
+    </ol>
+    <p>Manually loaded mods are not auto-updated. You have to re-download them when a new patch lands.</p>
+
+    <h2>FAQ</h2>
+    <h3>Will mods break my save?</h3>
+    <p>Backup first, and they generally won't. If they do, restoring the save folder reverts cleanly.</p>
+    <h3>Can I play with friends using mods?</h3>
+    <p>The current build is single-player. Mod compatibility for the announced co-op mode is "TBD" on the developer's roadmap.</p>
+    <h3>Is modding safe for achievements?</h3>
+    <p>Some mods disable achievements. Check the mod description before subscribing if you care about the achievement sheet.</p>
+
+    <div class="notice">
+      <strong>Heads up:</strong> Mods go stale between patches. Always check the mod's last-updated date and patch-pin comment before subscribing. A stale mod can soft-lock your breeding GUI or other mid-patch content.
+    </div>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><h4>Fields of Mistria Wiki</h4><p style="margin:0;">A fan-run reference hub.</p></div>
+    <div><h4>Explore</h4><ul><li><a href="../index.html">Home</a></li><li><a href="../guides/updates.html">Patch Notes</a></li></ul></div>
+    <div><h4>External Sources</h4><ul><li><a href="https://steamcommunity.com/app/2143790" target="_blank" rel="noopener">Steam Community</a></li></ul></div>
+  </div>
+  <div class="copyright">© Fan-made Fields of Mistria companion site. Mods are community-made.</div>
+</footer>
+
+</body>
+</html>
